@@ -1,0 +1,22 @@
+{
+    "Cetuximab": {
+        "pretrain_num_epochs": 200,
+        "latent_dim": 32,
+        "trade_off": 2.0
+    },
+    "Paclitaxel": {
+        "pretrain_num_epochs": 300,
+        "latent_dim": 32,
+        "trade_off": 0.5
+    },
+    "Gemcitabine": {
+        "pretrain_num_epochs": 200,
+        "latent_dim": 16,
+        "trade_off": 5.0
+    },
+    "default": {
+        "pretrain_num_epochs": 200,
+        "latent_dim": 32,
+        "trade_off": 1.0
+    }
+}

@@ -1,0 +1,15 @@
+{
+ "unlabeled": {"batch_size": 32, 
+     "lr": 0.0001, 
+     "pretrain_num_epochs": 500,
+     "classifier_hidden_dims": [64, 32]
+     }, 
+ "labeled": {"batch_size": 32, 
+     "lr": 0.01, 
+     "train_num_epochs": 200,
+     "weight_decay": 0.001,
+     "trade_off": 0.5
+     },
+     "encoder_hidden_dims": [256, 128],
+     "drop": 0.1
+}
