@@ -5,18 +5,18 @@
         "trade_off": 2.0
     },
     "Paclitaxel": {
-        "pretrain_num_epochs": 300,
+        "pretrain_num_epochs": 1000,
         "latent_dim": 32,
-        "trade_off": 0.5
+        "trade_off": 5.0
     },
     "Gemcitabine": {
         "pretrain_num_epochs": 200,
-        "latent_dim": 16,
+        "latent_dim": 8,
         "trade_off": 5.0
     },
     "default": {
         "pretrain_num_epochs": 200,
         "latent_dim": 32,
-        "trade_off": 1.0
+        "trade_off": 2.0
     }
 }

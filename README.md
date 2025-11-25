@@ -52,3 +52,23 @@ Excepted output: The output files are saved in the `model_save` directory, organ
 - Trained model checkpoints
 - `*_val_auroc.txt` and `*_val_auprc.txt`: Validation performance across folds
 - `*_test_auroc.txt` and `*_test_auprc.txt`: Test performance on patient samples
+
+## Citation
+
+If you find this repository useful, please cite the following paper:
+
+```
+@article{10.1186/s12967-025-07371-9,
+    author = {Yang, Jianye and Wu, Tian and Xue, Feiyang and Gong, Jing and Niu, Xiaohui},
+    title = "{TRANSPIRE-DRP: A deep learning framework for translating patient-derived xenograft drug response to clinical patients via domain adaptation}",
+    journal = {Journal of Translational Medicine},
+    volume = {23},
+    number = {1},
+    pages = {1340},
+    year = {2025},
+    month = {11},
+    issn = {1479-5876},
+    doi = {10.1186/s12967-025-07371-9},
+    url = {https://doi.org/10.1186/s12967-025-07371-9},
+}
+```
